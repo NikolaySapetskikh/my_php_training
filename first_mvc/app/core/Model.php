@@ -3,19 +3,19 @@
 class Model
 {
 	public $data = array(
-				array('title_id' =>'0',
+				array('id' =>'0',
 					  'title_name' =>'Новость №1!',
 					  'title_content' =>'Содержание новости №1' ),
-				array('title_id' =>'1',
+				array('id' =>'1',
 					  'title_name' =>'Новость №2!',
 					  'title_content' =>'Содержание новости №2' ),
-				array('title_id' =>'2',
+				array('id' =>'2',
 					  'title_name' =>'Новость №3!',
 					  'title_content' =>'Содержание новости №3' ),
-				array('title_id' =>'3',
+				array('id' =>'3',
 					  'title_name' =>'Новость №4!',
 					  'title_content' =>'Содержание новости №4' ),
-				array('title_id' =>'4',
+				array('id' =>'4',
 					  'title_name' =>'Новость №5!',
 					  'title_content' =>'Содержание новости №5' ),
 	 );

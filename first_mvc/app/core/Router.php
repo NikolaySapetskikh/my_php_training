@@ -13,7 +13,8 @@ class Router{
 		elseif ($page === 'article') {
 			$controller = new ArticlesController();
 			$controller->article(filter_input(INPUT_GET, 'article_id'));
-		}else{
+		}
+		else {
 			$controller = new MainController();
 			$controller->pageNotFound();
 		}

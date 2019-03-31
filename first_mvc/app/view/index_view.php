@@ -8,7 +8,7 @@
   <h1>Самые горячие новости....</h1>
   <ul>
   	<?php
-  	foreach ($incoming_data as $key => $value) {?>
+  	foreach ($data as $key => $value) {?>
   		<li><a href="?page=article&article_id=<?=$key;?>"><?=$value; ?></li>
   	<?php } ?>
   	

@@ -5,8 +5,8 @@
   <title>-=Горячущая новость!!!=-</title>
  </head>
  <body>
-  <h1><?=$incoming_data[0]?></h1>
+  <h1><?=$data[0]?></h1>
   <!-- Комментарий -->
-  <p><?=$incoming_data[1]?></p>
+  <p><?=$data[1]?></p>
   </body>
 </html>
